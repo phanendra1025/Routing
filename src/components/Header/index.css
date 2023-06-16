@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 30px;
+}
+.app-name {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.nav-bar-list-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.list-item {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  margin-right: 15px;
+}
